@@ -7,7 +7,6 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@700&family=Great+Vibes&display=swap" rel="stylesheet">
   <style>
-    /* General */
     body {
       margin: 0;
       font-family: 'Lato', Arial, sans-serif;
@@ -16,8 +15,6 @@
       line-height: 1.7;
     }
     a { text-decoration: none; }
-
-    /* Header */
     header {
       background: linear-gradient(135deg, #6a0dad, #a6784e);
       color: #fff;
@@ -36,8 +33,6 @@
       font-size: 1.8rem;
       margin: 10px 0 0;
     }
-
-    /* Hero */
     .hero {
       background: #fff;
       max-width: 1000px;
@@ -47,18 +42,7 @@
       box-shadow: 0 8px 20px rgba(0,0,0,0.15);
       text-align: center;
       border-top: 8px solid #3498db;
-      transition: transform 0.3s ease;
     }
-    .hero:hover { transform: translateY(-5px); }
-    .hero h2 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2.4rem;
-      margin-bottom: 20px;
-      color: #6a0dad;
-    }
-    .hero p { font-size: 1.2rem; margin: 10px 0; }
-
-    /* Buttons */
     .btn {
       display: inline-block;
       margin: 12px 10px;
@@ -67,33 +51,10 @@
       color: #fff;
       border-radius: 10px;
       box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.2s ease, background 0.3s ease;
     }
-    .btn:hover { transform: translateY(-3px); }
-    .btn.call { background: #3498db; } .btn.call:hover { background: #2980b9; }
-    .btn.email { background: #9b59b6; } .btn.email:hover { background: #8e44ad; }
-    .btn.sms { background: #a6784e; } .btn.sms:hover { background: #8c5a33; }
-
-    /* Sections */
-    section {
-      max-width: 900px;
-      margin: 40px auto;
-      padding: 45px 35px;
-      border-radius: 20px;
-      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
-      text-align: center;
-      transition: transform 0.3s ease;
-    }
-    section:hover { transform: translateY(-5px); }
-    section h3 {
-      font-family: 'Playfair Display', serif;
-      font-size: 2rem;
-      margin-bottom: 25px;
-      color: #6a0dad;
-    }
-    section p { font-size: 1.15rem; margin: 10px 0; }
-
-    /* About Section */
+    .btn.call { background: #3498db; }
+    .btn.email { background: #9b59b6; }
+    .btn.sms { background: #a6784e; }
     #about { background: #f0e6f7; }
     .about-container {
       display: flex;
@@ -113,46 +74,6 @@
       display: block;
       box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     }
-
-    /* Services Section */
-    #services { background: #e6f7f0; }
-    ul { max-width: 400px; margin: 0 auto; text-align: center; font-size: 1.15rem; padding-left: 0; list-style: inside; }
-
-    /* Mobile Notary Section */
-    #mobile-notary { background: #fff4e6; }
-    #mobile-notary ul { list-style: none; padding-left: 0; margin: 15px auto; display: inline-block; text-align: center; }
-    #mobile-notary ul li { margin: 10px 0; font-size: 1.1rem; }
-
-    /* Disclaimer */
-    #disclaimer { background: #f7f0f0; font-size: 1rem; color: #555; }
-    #disclaimer p { line-height: 1.6; }
-
-    /* Contact Form */
-    form { display: flex; flex-direction: column; align-items: center; }
-    form input, form textarea {
-      width: 80%;
-      padding: 12px;
-      margin: 10px 0;
-      border-radius: 8px;
-      border: 1px solid #ccc;
-      font-size: 1rem;
-      font-family: 'Lato', Arial, sans-serif;
-    }
-    form button {
-      width: 50%;
-      padding: 14px;
-      margin-top: 10px;
-      font-weight: bold;
-      color: #fff;
-      background: #3498db;
-      border: none;
-      border-radius: 10px;
-      cursor: pointer;
-      transition: background 0.3s ease;
-    }
-    form button:hover { background: #2980b9; }
-
-    /* Footer */
     footer {
       background: #6a0dad;
       color: #fff;
@@ -162,28 +83,14 @@
       margin-top: 40px;
     }
     footer a { color: #fff; font-weight: bold; }
-    footer a:hover { text-decoration: underline; }
-
-    /* Responsive */
-    @media (max-width: 480px) {
-      .btn { width: 80%; margin: 12px auto; display: block; }
-      form input, form textarea { width: 90%; }
-      form button { width: 70%; }
-      .about-container { flex-direction: column; }
-      .naa-seal { margin: 20px auto 0; }
-      #mobile-notary ul { display: block; }
-    }
   </style>
 </head>
 <body>
-
-  <!-- Header -->
   <header>
     <h1>Hemingway Notary</h1>
     <p>Signed and Sealed, The Hemingway</p>
   </header>
 
-  <!-- Hero -->
   <div class="hero">
     <h2>Reliable Notary Services You Can Trust</h2>
     <p>Serving all your document notarization needs professionally and efficiently.</p>
@@ -194,67 +101,46 @@
     </p>
   </div>
 
-  <!-- About -->
+  <!-- About Us -->
   <section id="about">
     <h3>About Us</h3>
     <div class="about-container">
-      <img src="notary picture.JPG" alt="Antiqua Hemingway, Notary" class="about-img">
+      <img src="notary-picture.jpg" alt="Antiqua Hemingway, Certified Notary" class="about-img">
       <div>
-        <p>Hemingway Notary is an insured, certified, and bonded professional Notary Signing Service. Operated by Antiqua Hemingway, offering professional notary services with integrity, reliability, and personalized attention.</p>
-        <img src="com.apple.Foundation.NSItemProvider.hWqSzi.png" alt="NAA Seal" class="naa-seal">
+        <p><strong>Hemingway Notary</strong> is a certified, bonded, and insured Notary Public and Notary Signing Service, 
+        operated by <strong>Antiqua Hemingway</strong>. We are committed to delivering professional, accurate, and 
+        confidential notarial services tailored to the needs of our clients.</p>
+
+        <p>Our expertise includes loan signings, real estate documents, affidavits, powers of attorney, contracts, 
+        and more. Every signing is handled with integrity and attention to detail, ensuring that your documents are 
+        completed correctly and efficiently.</p>
+
+        <p>We proudly offer <strong>mobile notary services</strong> across Pennsylvania, traveling to homes, hospitals, 
+        correctional institutions, financial offices, and businesses to make the process convenient and stress-free 
+        for our clients.</p>
+
+        <!-- Meet the Notary Subsection -->
+        <h4 style="margin-top:25px; color:#6a0dad; font-family:'Playfair Display', serif;">Meet the Notary</h4>
+        <p>Hello, my name is <strong>Antiqua Hemingway</strong>. I am a certified Notary Signing Agent, bonded and insured, 
+        with a passion for providing reliable and professional notarial services. My mission is to simplify the notarization 
+        process while maintaining integrity and confidentiality for every client I serve.</p>
+
+        <ul style="list-style:none; padding:0; margin-top:15px; font-size:1.1rem;">
+          <li>✔️ NNA Certified Notary Signing Agent</li>
+          <li>✔️ Bonded & Insured</li>
+          <li>✔️ Reliable Mobile Services</li>
+        </ul>
+
+        <img src="naa-seal.png" alt="National Notary Association Seal" class="naa-seal">
       </div>
     </div>
   </section>
 
-  <!-- Services -->
-  <section id="services">
-    <h3>Our Services</h3>
-    <p>We provide notarization for documents such as:</p>
-    <ul>
-      <li>Legal documents</li>
-      <li>Contracts & agreements</li>
-      <li>Real estate documents</li>
-      <li>Affidavits & sworn statements</li>
-      <li>Power of attorney</li>
-      <li>And Much Much More...</li>
-    </ul>
-  </section>
-
-  <!-- Mobile Notary -->
-  <section id="mobile-notary">
-    <h3>Mobile Notary Public</h3>
-    <p>Full mobile notary services including loan signings by an insured, certified, and bonded professional Notary Services Agent. We also offer services such as email, print, scan, and fax services in black & white.</p>
-    <p>We travel to fulfill your notary needs at:</p>
-    <ul>
-      <li>🏫 Educational Institutions</li>
-      <li>🏥 Health Care Facilities</li>
-      <li>⚖️ Correctional Institutions</li>
-      <li>🏠 Personal Residences</li>
-      <li>🏦 Financial Institutions</li>
-    </ul>
-  </section>
-
-  <!-- Disclaimer -->
-  <section id="disclaimer">
-    <h3>Disclaimer</h3>
-    <p>Hemingway Notary's are not attorneys licensed to practice law in the Commonwealth of Pennsylvania. We are not allowed to draft legal documents, give advice on legal matters, including immigration, or charge a fee for those activities. If you need legal advice or services, please contact a licensed attorney.</p>
-  </section>
-
-  <!-- Contact Form -->
-  <section id="contact">
-    <h3>Contact Us</h3>
-    <form>
-      <input type="text" placeholder="Your Name" required>
-      <input type="email" placeholder="Your Email" required>
-      <textarea rows="4" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </section>
-
-  <!-- Footer -->
   <footer>
-    <p>&copy; 2025 Hemingway Notary | <a href="https://www.nationalnotary.org/info/choose" target="_blank">Learn More</a></p>
+    <p>&copy; 2025 Hemingway Notary | 
+       <a href="https://www.nationalnotary.org/info/choose" target="_blank">Learn More</a>
+    </p>
+    <p>📞 Call/Text: <a href="tel:+15418324643">541-832-4643</a></p>
   </footer>
-
 </body>
 </html>
